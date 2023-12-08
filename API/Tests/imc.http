@@ -1,0 +1,23 @@
+@base_url = https://localhost:7015/api/imc
+
+### Listar imc ###
+GET {{base_url}}/listar
+
+### Criar Imc ###
+POST {{base_url}}/cadastrar
+Content-Type: application/json
+
+{
+      
+      "Altura": "1.70",
+      "Peso" : "55",
+      "UsuarioId": 5
+}
+
+
+
+
+
+
+
+

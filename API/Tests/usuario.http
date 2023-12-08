@@ -1,0 +1,14 @@
+@base_url = https://localhost:7015/api/usuario
+
+### Listar usuarios ###
+GET {{base_url}}/listar
+
+### Criar Usuario ###
+POST {{base_url}}/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "dfgdfdf",
+    "dataNascimento": "01/05/2023"
+  
+}
